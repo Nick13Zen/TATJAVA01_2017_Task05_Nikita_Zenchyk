@@ -2,6 +2,7 @@ package com.epam.stax;
 
 import com.epam.bean.Unit;
 
+import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class StAXMenuParser {
         while (reader.hasNext()) {
             int type = reader.next();
             switch (type) {
-                case XMLSteramConstants.START_ELEMENT:
+                case XMLStreamConstants.START_ELEMENT:
                     elemantName = MenuTagName.getElementTagName(reader.getLocalName());
                     switch (elemantName) {
                         case UNIT:
@@ -27,7 +28,7 @@ public class StAXMenuParser {
                             break;
                     }
                     break;
-                case XMLSteramConstants.CHARACTERS:
+                case XMLStreamConstants.CHARACTERS:
                     String text = reader.getText().trim();
 
                     if (text.isEmpty()) {
@@ -51,7 +52,7 @@ public class StAXMenuParser {
                             break;
                     }
                     break;
-                case XMLSteramConstants.END_ELEMENT:
+                case XMLStreamConstants.END_ELEMENT:
                     elemantName = MenuTagName.getElementTagName(reader.getLocalName());
                     switch (elemantName) {
                         case UNIT:
