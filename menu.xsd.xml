@@ -1,0 +1,150 @@
+<menu:menu xmlns:menu="http://www.menu.com/Menu">
+  <cold-snacks id="1">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Тарталетки с красной икрой</name>
+      <description id="1">
+        <specification>Тарталетки с красной икрой</specification>
+        <portion>60/50</portion>
+        <price>20</price>
+      </description>
+    </unit>
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Закуски по русски</name>
+      <description id="1">
+        <specification>Кусочки атлантичской сельди с отварным картофелем, лучком, лимоном и зеленью</specification>
+        <portion>70/50/2/10</portion>
+        <price>20</price>
+      </description>
+    </unit>
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти баклажаны</name>
+      <description id="1">
+        <specification>Жаренные баклажаны с помидорами</specification>
+        <portion>100/5</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </cold-snacks>
+  <hot-snacks id="2">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Жульен</name>
+      <description id="1">
+        <specification>с курицей</specification>
+        <portion>120/1</portion>
+        <price>145</price>
+      </description>
+    </unit>
+  </hot-snacks>
+  <breakfasts id="3">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Омлет</name>
+      <description id="3">
+        <specification></specification>
+        <portion>100</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </breakfasts>
+  <salads id="4">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </salads>
+  <soups id="5">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </soups>
+  <fish-Dishes id="6">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </fish-Dishes>
+  <meet-Dishes id="7">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </meet-Dishes>
+  <dishesOnTheGrill id="8">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </dishesOnTheGrill>
+  <fromTheChef id="9">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </fromTheChef>
+  <attachment id="10">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </attachment>
+  <desert id="11">
+    <unit>
+      <photoUrl>string</photoUrl>
+      <name>Ассорти рыбное</name>
+      <description id="1">
+        <specification>Слабосоленая форель, семга</specification>
+        <portion>100/2/15</portion>
+        <price>20</price>
+      </description>
+    </unit>
+  </desert>
+</menu:menu>

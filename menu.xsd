@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.menu.com/Menu"
+        xmlns:tns="http://www.menu.com/Menu">
+
+    <element name="menu">
+        <complexType>
+        <all>
+            <element name="cold-snacks" type="tns:item"/>
+            <element name="hot-snacks" type="tns:item"/>
+            <element name="breakfasts" type="tns:item"/>
+            <element name="salads" type="tns:item"/>
+            <element name="soups" type="tns:item"/>
+            <element name="fish-Dishes" type="tns:item"/>
+            <element name="meet-Dishes" type="tns:item"/>
+            <element name="dishesOnTheGrill" type="tns:item"/>
+            <element name="fromTheChef" type="tns:item"/>
+            <element name="attachment" type="tns:item"/>
+            <element name="desert" type="tns:item"/>
+        </all>
+    </complexType>
+    </element>
+
+    <complexType name="item">
+        <sequence maxOccurs="unbounded">
+            <element name="unit" type="tns:title"/>
+        </sequence>
+        <attribute name="id" type="int" use="required"/>
+    </complexType>
+
+    <complexType name="title">
+        <sequence>
+            <element name="photoUrl" type="string"/>
+            <element name="name" type="string"/>
+            <element name="description" type="tns:description" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="description">
+        <sequence>
+            <element name="specification" type="string"/>
+            <element name="portion" type="tns:portionType"/>
+            <element name="price" type="double"/>
+        </sequence>
+        <attribute name="id" type="int" use="required"/>
+    </complexType>
+
+    <simpleType name="portionType">
+        <restriction base="string">
+            <pattern value="(([1-9]\d*/?)+[1-9]\d*)|([1-9]\d*\sшт\.)|([1-9]\d*)"/>
+        </restriction>
+    </simpleType>
+
+</schema>
